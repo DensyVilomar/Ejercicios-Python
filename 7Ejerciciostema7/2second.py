@@ -1,6 +1,6 @@
 Request = input("Insert a name of a file: ")
 try:
-    file = open(Request)
+    file = open(Request, "r")
 except:
     print("Error, nonexistent file.")
     quit()
