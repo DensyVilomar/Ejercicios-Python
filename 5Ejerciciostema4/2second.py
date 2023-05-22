@@ -3,7 +3,7 @@ lis = lis.split()
 
 new_lis = [float(number) for number in lis]
 
-minimun = min(new_lis)
-maximun = max(new_lis)
+minimum = min(new_lis)
+maximum = max(new_lis)
 
-print(f"The minimun number is {minimun} and the maximun number is {maximun}")
+print(f"The minimum number is {minimum} and the maximum number is {maximum}")

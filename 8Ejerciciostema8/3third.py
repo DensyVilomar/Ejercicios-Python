@@ -11,7 +11,7 @@ while True:
     
     lis.append(to_float)
     
-minimun = min(lis)
-maximun = max(lis)
+minimum = min(lis)
+maximum = max(lis)
     
-print(f"The minimun number is {minimun} and the maximun nomber is {maximun}")    
+print(f"The minimum number is {minimum} and the maximum number is {maximum}")    
