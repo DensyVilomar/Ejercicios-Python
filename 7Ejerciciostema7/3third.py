@@ -17,4 +17,4 @@ for lines in file:
         
 file.close()
 
-print(sum/counter)
+print(f"The average is {sum/counter}")
