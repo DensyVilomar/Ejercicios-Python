@@ -1,4 +1,4 @@
-str = 'X-DSPAM-Confidence:0.8475'
+str = "X-DSPAM-Confidence:0.8475"
 
 search = str.find(":")
 
