@@ -12,3 +12,5 @@ for lines in file:
         decimal = lines[search + 1:]
         to_float = float(decimal)
         print(decimal)
+
+file.close()
