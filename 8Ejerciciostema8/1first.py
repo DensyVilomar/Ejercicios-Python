@@ -6,4 +6,4 @@ with open("zzz.txt", "r") as file:
             if word not in lis:
                 lis.append(word)
 
-print(lis)                              
+print(lis)                
