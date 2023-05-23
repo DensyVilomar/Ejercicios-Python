@@ -4,7 +4,7 @@ lis = []
 request = input("Name of the file: ")
 
 try:
-    with open("zz.txt","r") as file:
+    with open(request,"r") as file:
         for lines in file:
             if lines.startswith("From "):
                 lines = lines.split()
