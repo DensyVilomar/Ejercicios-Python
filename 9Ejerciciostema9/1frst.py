@@ -8,4 +8,5 @@ with open("zz.txt", "r") as file:
                 my_dict[word] = 1
             else:
                 my_dict[word] += 1
+                
 print(my_dict)
