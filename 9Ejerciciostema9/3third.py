@@ -10,4 +10,13 @@ with open("zz.txt", "r") as file:
                 my_dict[email] += 1
 
 print(my_dict)
-print("The person who has more messages has:",max(my_dict.values()))
+
+max_messages = None
+max_amount = None
+
+for email,amount in my_dict.items():
+    if max_amount is None or amount > max_amount:
+        max_messages = email
+        max_amount = amount
+
+print(f"The person who has more messages is {max_messages} with {max_amount} messages.")
